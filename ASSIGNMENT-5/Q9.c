@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int no=4;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=4;j++)
+			if(i==1||i==no||j==1||j==no)
+			printf("* ");
+		else{
+			printf("  ");
+		}
+		printf("\n");
+	}
+	return 0;
+}
